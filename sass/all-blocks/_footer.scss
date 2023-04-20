@@ -1,0 +1,38 @@
+.footer{
+    background: #F3F3F3;
+    margin-top: 247px;
+    border: 1px solid #EBEBEB;
+    &__block{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__list{
+        padding-top: 54px;
+        padding-bottom: 90px;
+    }
+    &__link{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #333333;
+            &:hover{
+                color: #FFBD54;
+            }
+    }
+    &__logo_img{
+        padding: 54px 0 90px 0;
+    }
+    &__icon_link{
+        position: absolute;
+        left: 710px;
+    }
+    &__icon_linkk{
+        position: absolute;
+        left: 940px;
+    }
+    &__icon_linkkk{
+        position: absolute;
+        left: 1280px;
+    }
+}

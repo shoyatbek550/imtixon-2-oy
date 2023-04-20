@@ -1,0 +1,97 @@
+.finish{
+    background-color: #333333;
+    margin-top: 264px;
+    .finish{
+        &__block{
+            display: flex;
+        }
+        &__right{
+            background-image: url('../../images/finish-bg.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 1200px;
+        }
+        &__title{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 62px;
+            color: #FFFFFF;
+            margin-bottom: 14px;
+            margin-top: 62px;
+        }
+        &__text{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #949494;
+            max-width: 350px;
+            margin-bottom: 29px;
+        }
+        &__input{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            color: #949494;
+            padding: 16px 188px 13px 22px;
+            margin-bottom: 14px;
+            outline: none;
+                &:focus{
+                    border: 2px solid #FFBD54;
+                    color: #333333;
+                }
+        }
+        &__inputt{
+            display: block;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            color: #949494;
+            padding: 16px 188px 13px 22px;
+            margin-bottom: 14px;
+            outline: none;
+            &:focus{
+                border: 2px solid #FFBD54;
+                color: #333333;
+            }
+        }
+        &__inputtt{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            color: #949494;
+            padding: 16px 188px 127px 22px;
+            margin-bottom: 30px;
+            outline: none;
+            &:focus{
+                border: 2px solid #FFBD54;
+                color: #333333;
+            }
+        }
+        &__btn{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+            color: #FFFFFF;
+            background: #FFBD54;
+            border: none;
+            cursor: pointer;
+            padding: 15px 50px;
+            &:hover{
+                background: #ffbd54d0;
+            }
+            &:active{
+                background: #ffbd5488;
+            }
+        }
+        &__item_block{
+            margin-left: 150px;
+        }
+
+    }
+}

@@ -1,0 +1,13 @@
+@mixin flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin adress {
+    font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+color: #333333;
+
+}

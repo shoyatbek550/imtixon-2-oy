@@ -1,0 +1,195 @@
+.header-up{
+    background: #F9F8F8;
+}
+
+.header-up__wrapper{
+    @include flex;
+}
+
+.header-up__list{
+    @include flex;
+}
+
+.header-up__adress{
+    @include adress;
+    &:hover{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        
+        color: #FFBD54;
+    }
+    &:active{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        
+        color: #333333;
+        
+        opacity: 0.6;
+    }
+    
+}
+
+.header-up__adress::before{
+    content: "";
+    width: 14px;
+    height: 13px;
+    background-image: url("../../images/hom-logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin-right: 9px;
+}
+
+.header-up__item{
+    margin-right: 16px
+}
+
+.header-up__item:nth-child(3){
+    margin-right: 0;
+}
+
+.header--up__link{
+    @include adress;
+    &:hover{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        
+        color: #FFBD54;
+    }
+    &:active{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        
+        color: #333333;
+        
+        opacity: 0.6;
+    }
+    
+}
+
+.header--up__link::before {
+    content: "";
+    width: 13px;
+    height: 13px;
+    background-image: url(../../images/tel-logo.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 9px;
+}
+
+.header-up__link{
+    @include adress;
+    
+    &:hover{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        
+        color: #FFBD54;
+    }
+    &:active{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        
+        color: #333333;
+        
+        opacity: 0.6;
+    }
+}
+
+.header-up__link::before{
+    content: "";
+    width: 4px;
+    height: 4px;
+    background: #FFBD54;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 9px;
+    vertical-align: middle;
+    
+}
+
+.header---up__item{
+    margin-right: 17px;
+}
+
+.header---up__item:nth-child(2){
+    margin-right: 0;
+}
+
+.header--up__text::before{
+    content: "";
+    width: 14px;
+    height: 14px;
+    background-image: url(../../images/kolendar-logo.svg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+}
+
+
+
+
+.header{
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    &-down__wrapper{
+        @include flex;
+    }
+    &-down__list{
+        margin-left: 145px;
+        @include flex;
+        gap: 55px;
+    }
+    &-down__link{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #333333;  
+
+    &:hover{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #333333;
+        border-bottom: 4px solid #f3ffa7;
+    }
+    &:active{
+        color: #333333;
+        border-bottom: 4px solid #F4FFAD;
+        opacity: 0.6;
+    }
+    }
+    &--down__link{
+        gap: 5px;
+        align-items: center;
+        display: flex;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: right;
+        color: #333333;
+
+    &:hover{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #333333;
+        border-bottom: 4px solid #f3ffa7;
+    }
+    &:active{
+        color: #333333;
+        border-bottom: 4px solid #F4FFAD;
+        opacity: 0.6;
+    }
+    }
+}
